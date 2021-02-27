@@ -94,30 +94,55 @@ section.smaller {
 
 
 
+.profpic .speaker {
+	/*min-width: 14%;*/
+	margin: auto;
+	padding-bottom: 10px;
+	width: 210px;
+
+}
+
 .profpic {
 	/*min-width: 14%;*/
 	margin: auto;
-	width: 180px;
+	padding-bottom: 10px;
+	width: 190px;
 
 }
 
 .profpic img {
 	width: 130px;
 	height: 130px;
-  display: block;
-  margin: auto;
+	  display: block;
+	  margin: auto;
+	object-fit: cover;
 }
+
+.speaker img {
+	width: 170px;
+	height: 170px;
+	  display: block;
+	  margin: auto;
+}
+
+
+
 .profpic .profname {
   text-align: center;
   font-size: large;
   height: 20px;
   margin-top: 15px;
   margin-bottom: 5px;
+  color: black;
 
+}
+.profpic .profname a {
+	color: black;
 }
 .profpic .institution {
   text-align: center;
-  height: 20px;
+  font-size: 15px;
+  height: 60px;
 }
 
 .paperlink img:hover {
