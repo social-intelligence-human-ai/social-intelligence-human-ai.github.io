@@ -473,3 +473,6 @@ button.search_top:hover {
 	font-size: 1.5em;
     }
 }
+li {
+	display: list-item
+}
