@@ -473,6 +473,21 @@ button.search_top:hover {
 	font-size: 1.5em;
     }
 }
+ul.listpapers li {
+        
+    display: list-item;
+    margin-top:  15px;
+    font-size:  15px;
+    font-weight: bold;
+}
+
 li {
 	display: list-item
 }
+.authorname {
+    color:  rgb(120,120,120);
+    font-weight: normal
+}
+
+
+
