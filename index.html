@@ -251,7 +251,18 @@ The workshop will adopt a hybrid format, including in-person presenations, live 
  					</td>
 				</tr>
 					<tr>
-					<td>	09:50 am - 10:25 am      <td/><td>   Jakob Foester <br> <b> Title: TBA </b>
+					<td>	09:50 am - 10:25 am      <td/><td>   Jakob Foester <br> <b> Zero-Shot Coordination and Off-Belief Learning </b>
+						<br>
+						<a data-toggle="collapse" data-target="#abstractdorsa" class="collapsed abstract" aria-expanded="false"> Abstract</a> 
+								<div id="abstractdorsa" class="news collapse" style="margin-top: 10px; height: 22px;" aria-expanded="false">
+									There has been a large body of work studying how agents can learn communication protocols in decentralised settings, using their actions to communicate information. Surprisingly little work has studied how this can be prevented, yet this is a crucial prerequisite from a human-AI coordination and AI-safety point of view.
+
+The standard problem setting in Dec-POMDPs is self-play, where the goal is to find a set of policies that play optimally together. Policies learned through self-play may adopt arbitrary conventions and implicitly rely on multi-step reasoning based on fragile assumptions about other agents' actions and thus fail when paired with humans or independently trained agents at test time. To address this, we present off-belief learning (OBL). At each timestep OBL agents follow a policy pi_1 that is optimised assuming past actions were taken by a given, fixed policy, pi_0, but assuming that future actions will be taken by pi_1. When pi_0 is uniform random, OBL converges to an optimal policy that does not rely on inferences based on other agents' behaviour.
+
+OBL can be iterated in a hierarchy, where the optimal policy from one level becomes the input to the next, thereby introducing multi-level cognitive reasoning in a controlled manner. Unlike existing approaches, which may converge to any equilibrium policy, OBL converges to a unique policy, making it suitable for zero-shot coordination (ZSC).
+
+OBL can be scaled to high-dimensional settings with a fictitious transition mechanism and shows strong performance in both a toy-setting and the benchmark human-AI & ZSC problem Hanabi.
+								</div>
  					</td>
 				</tr>
 				<tr>
